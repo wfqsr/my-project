@@ -1,0 +1,25 @@
+$containerWidth: 1100px;
+$white: color #FFFFFF;
+$darkblack: color #000000;
+$gray: color #666666;
+$yellow: color #FEDB3F;
+$black:color #292929;
+
+
+@import url("./normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("./layout.scss");
+
+@import "components/hero.scss";
+@import "components/header.scss";
+@import "components/features.scss";
+@import "components/feature.scss";
+@import "components/btn.scss";
+@import "components/section.scss";
+@import "components/headline.scss";
+@import "components/benefits.scss";
+@import "components/benefit.scss";
+@import "components/reviews.scss";
+@import "components/interactive-avatar.scss";
+@import "components/form.scss";
+@import "components/form_controls.scss";

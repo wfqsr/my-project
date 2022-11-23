@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+
+}
+
+
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu__item{
+    margin-right: 15px;
+    &:last-child{
+        margin-right: 0;
+    }
+
+    list-style: none;
+    color: #FFFFFF;
+
+}
+
+.phone__number{
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number__img{
+    Width: 12.83px;
+    Height: 13.78px;
+    margin-right: 6px;
+
+}
+
+.phone-number__text{
+    color: #FFFFFF;
+}

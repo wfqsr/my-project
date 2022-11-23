@@ -1,0 +1,42 @@
+.form__controls{
+    margin-bottom: 1.875rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.controls__label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 0.9375rem 1.125rem 0;
+    user-select: none;
+}
+
+.controls__input {
+    display: none;
+}
+
+.controls__elem {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls__label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 0.9375rem 1.125rem 0;
+    user-select: none;
+}

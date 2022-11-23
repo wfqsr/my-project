@@ -1,0 +1,15 @@
+.benefits{
+    display: flex;
+
+}
+
+.benefits__item{
+    flex: 1;
+    margin: 0 3%;
+    &:first-child{
+        margin-left: 0;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,17 @@
+$darkblack: #000000;
+$yellow: #FEDB3F;
+
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    text-decoration: none;
+    
+    &--yellow {
+        background: $yellow;
+        color: $darkblack;
+    }
+}
